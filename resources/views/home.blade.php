@@ -167,7 +167,8 @@
         </article>
       </div>
     </div>
-    <div id="news-content" class="min-h-screen">
+    
+    <div id="img-gallery" class="">
       <div id="gallery" class="relative w-full my-28" data-carousel="slide">
         <!-- Carousel wrapper -->
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
@@ -211,6 +212,100 @@
         </button>
       </div>
 
+    </div>
+    <div id="latest-content">
+      <h1 class="text-3xl font-bold ms-8">Latest News</h1>
+      <div id="card-latest-content" class="flex justify-center">
+        <div id="card-latest-content" class="grid grid-cols-3 gap-12">
+          <article class="max-w-72">
+            <img src="img/pura-ulun-danu-bratan-bali-hindu-temple-surrounded-by-flowers-bratan-lake.jpg">
+            <a href="#" class="hover:text-sky-500 my-7 font-bold text-xl">Kecerdasan Buatan dalam Kesehatan</a>
+            <p class="my-4 text-slate-700 font-medium">This is a wider card with supporting text below as a natural leadin to additional content</p>
+            <section class="flex">
+              <p class="font-black text-rose-600"> | </p>
+              <p class="text-slate-500 ms-2">Latest content</p>
+            </section>
+            
+          </article>
+          <article class="max-w-72">
+            <img src="img/pura-ulun-danu-bratan-bali-hindu-temple-surrounded-by-flowers-bratan-lake.jpg">
+            <a href="#" class="hover:text-sky-500 my-7 font-bold text-xl">Kecerdasan Buatan dalam Kesehatan</a>
+            <p class="my-4 text-slate-700 font-medium">This is a wider card with supporting text below as a natural leadin to additional content</p>
+            <section class="flex">
+              <p class="font-black text-rose-600"> | </p>
+              <p class="text-slate-500 ms-2">Latest content</p>
+            </section>
+          </article>
+          <article class="max-w-72">
+            <img src="img/pura-ulun-danu-bratan-bali-hindu-temple-surrounded-by-flowers-bratan-lake.jpg">
+            <a href="#" class="hover:text-sky-500 my-7 font-bold text-xl">Kecerdasan Buatan dalam Kesehatan</a>
+            <p class="my-4 text-slate-700 font-medium">This is a wider card with supporting text below as a natural leadin to additional content</p>
+            <section class="flex">
+              <p class="font-black text-rose-600"> | </p>
+              <p class="text-slate-500 ms-2">Latest content</p>
+            </section>
+          </article>
+          <article class="max-w-72">
+            <img src="img/pura-ulun-danu-bratan-bali-hindu-temple-surrounded-by-flowers-bratan-lake.jpg">
+            <a href="#" class="hover:text-sky-500 my-7 font-bold text-xl">Kecerdasan Buatan dalam Kesehatan</a>
+            <p class="my-4 text-slate-700 font-medium">This is a wider card with supporting text below as a natural leadin to additional content</p>
+            <section class="flex">
+              <p class="font-black text-rose-600"> | </p>
+              <p class="text-slate-500 ms-2">Latest content</p>
+            </section>
+          </article>
+          <article class="max-w-72">
+            <img src="img/pura-ulun-danu-bratan-bali-hindu-temple-surrounded-by-flowers-bratan-lake.jpg">
+            <a href="#" class="hover:text-sky-500 my-7 font-bold text-xl">Kecerdasan Buatan dalam Kesehatan</a>
+            <p class="my-4 text-slate-700 font-medium">This is a wider card with supporting text below as a natural leadin to additional content</p>
+            <section class="flex">
+              <p class="font-black text-rose-600"> | </p>
+              <p class="text-slate-500 ms-2">Latest content</p>
+            </section>
+          </article>
+          <article class="max-w-72">
+            <img src="img/pura-ulun-danu-bratan-bali-hindu-temple-surrounded-by-flowers-bratan-lake.jpg">
+            <a href="#" class="hover:text-sky-500 my-7 font-bold text-xl">Kecerdasan Buatan dalam Kesehatan</a>
+            <p class="my-4 text-slate-700 font-medium">This is a wider card with supporting text below as a natural leadin to additional content</p>
+            <section class="flex">
+              <p class="font-black text-rose-600"> | </p>
+              <p class="text-slate-500 ms-2">Latest content</p>
+            </section>
+          </article>
+        </div>
+        <div class="card-latest-advertise p-10 flex flex-col justify-center items-center" >
+          <h1>ADVERTISEMENT</h1>
+          <div class="w-80 h-5/6 bg-slate-950 text-white flex flex-col justify-center items-center">
+            <p class="text-2xl">ADVERTISEMENT</p>
+            <p class="mb-32 text-2xl">320X405</p>
+            <button class="bg-white text-black py-3 px-7 cursor-pointer" >CONTACT US</button>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    <div id="most-popular" class="flex flex-col m-10 font-bold">
+      <h1 class="py-6 text-3xl bg-slate-200 px-5">Most Popular</h1>
+      <section class="flex py-4 text-3xl items-center">
+        <p class="text-5xl text-slate-400 mx-5">1</p>
+        <a href="">Why the world would end without political polls</a>
+      </section>
+      <section class="flex py-4 text-3xl items-center">
+        <p class="text-5xl text-slate-400 mx-5">2</p>
+        <a href="">Meet the man who designed the ducati monster</a>
+      </section>
+      <section class="flex py-4 text-3xl items-center">
+        <p class="text-5xl text-slate-400 mx-5">3</p>
+        <a href="">2020 Audi R8 Spyder spy shots release</a>
+      </section>
+      <section class="flex py-4 text-3xl items-center">
+        <p class="text-5xl text-slate-400 mx-5">4</p>
+        <a href="">Lamborghini makes Huracan GT3 racer faster for 2019</a>
+      </section>
+      <section class="flex py-4 text-3xl items-center">
+        <p class="text-5xl text-slate-400 mx-5">5</p>
+        <a href="">ZF plans $14 billion autonomous vehicle push, concept van</a>
+      </section>
     </div>
   </main>
 
