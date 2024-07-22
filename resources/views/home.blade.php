@@ -12,21 +12,14 @@
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
 </head>
 <body>
-    <!--
-  This example requires updating your template:
 
-  ```
-  <html class="h-full bg-gray-100">
-  <body class="h-full">
-  ```
--->
   <div class="min-h-full">
     <nav class="bg-gray-800">
       <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div class="flex h-16 items-center justify-between">
           <div class="flex items-center">
             <div class="flex-shrink-0">
-              <img class="h-8 w-8" src="img/news-logo.png" alt="portal-berita-logo">
+              <a href="/" ><img class="h-8 w-8" src="img/news-logo.png" alt="portal-berita-logo"></a>
             </div>
             <div class="hidden md:block">
               <div class="ml-10 flex items-baseline space-x-4">
@@ -69,12 +62,11 @@
                     From: "transform opacity-100 scale-100"
                     To: "transform opacity-0 scale-95"
                 -->
-                {{-- <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
+                <div class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none" role="menu" aria-orientation="vertical" aria-labelledby="user-menu-button" tabindex="-1">
                   <!-- Active: "bg-gray-100", Not Active: "" -->
                   <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-0">Your Profile</a>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Settings</a>
-                  <a href="#" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-2">Sign out</a>
-                </div> --}}
+                  <a href="/signin" class="block px-4 py-2 text-sm text-gray-700" role="menuitem" tabindex="-1" id="user-menu-item-1">Log In</a>
+                </div>
               </div>
             </div>
           </div>
@@ -168,8 +160,8 @@
       </div>
     </div>
     
-    <div id="img-gallery" class="">
-      <div id="gallery" class="relative w-full my-28" data-carousel="slide">
+    <div id="img-gallery" class="my-24">
+      <div id="gallery" class="relative w-full" data-carousel="slide">
         <!-- Carousel wrapper -->
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
             <!-- Item 1 -->
@@ -213,7 +205,7 @@
       </div>
 
     </div>
-    <div id="latest-content">
+    <div id="latest-content" class="shadow my-24">
       <h1 class="text-3xl font-bold ms-8">Latest News</h1>
       <div id="card-latest-content" class="flex justify-center">
         <div id="card-latest-content" class="grid grid-cols-3 gap-12">
@@ -225,7 +217,6 @@
               <p class="font-black text-rose-600"> | </p>
               <p class="text-slate-500 ms-2">Latest content</p>
             </section>
-            
           </article>
           <article class="max-w-72">
             <img src="img/pura-ulun-danu-bratan-bali-hindu-temple-surrounded-by-flowers-bratan-lake.jpg">
