@@ -17,3 +17,11 @@ Route::get('/signup', function () {
 Route::get('/news', function () {
     return view('news');
 });
+
+Route::get('/profiles', function () {
+    return view('profiles');
+});
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+});

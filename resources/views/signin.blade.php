@@ -182,6 +182,7 @@
             Don’t have an account yet? 
             <a href="/signup" class="font-semibold leading-6 text-indigo-600 hover:text-indigo-500">Sign up</a>
         </p>
+        <a href="/dashboard" class="flex justify-center text-center font-semibold leading-6 text-indigo-600 hover:text-indigo-500"><i><del>test dashboard<del></i></a>
         </div>
     </div>
   
